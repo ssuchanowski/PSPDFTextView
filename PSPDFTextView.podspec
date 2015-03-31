@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PSPDFTextView"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "A subclass of `UITextView` that fixes the most glaring problems from iOS 7 and 7.1."
   s.homepage     = "https://github.com/steipete/PSPDFTextView"
   s.screenshots  = "https://github.com/steipete/PSPDFTextView/raw/master/Example/fixed.gif"
@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files  = 'PSPDFTextView/*.{h,m,c}'
   s.requires_arc = true;
   s.social_media_url = "https://twitter.com/steipete"
+  s.dependency 'SZTextView'
 end
